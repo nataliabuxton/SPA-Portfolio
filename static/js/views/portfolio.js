@@ -1,4 +1,5 @@
 import AbstractView from "./AbstractView.js";
+import { u } from '../lib.js';
 
 export default class extends AbstractView {
     constructor(params) {
@@ -12,10 +13,10 @@ export default class extends AbstractView {
         <section class="portfolio section portfolio-section container swiper-container swiper-portfolio" id="portfolio">
             <h2 class="section-title">EXAMPLES OF MY WEB DESIGN PORTFOLIO</h2>
             <br>
-        
+
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-        
+
         <!-- PORTFOLIO 1 -->
               <div class="swiper-slide portfolio-content grid">
                     <img src="assets/imgs/portfolio1.png" alt="" class="portfolio-img">
@@ -28,12 +29,12 @@ export default class extends AbstractView {
                         </a>
                     </div>
               </div>
-        
+
         <!-- PORTFOLIO 2 -->
-        
+
               <div class="swiper-slide  portfolio-content grid ">
                 <img src="assets/imgs/portfolio2.png" alt="" class="portfolio-img">
-                    
+
                 <div class="portfolio-data">
                     <h3 class="portfolio-title">Brand & Bold</h3>
                     <p class="portfolio-description">A colourful, bold and beautiful record label site & branding.</p>
@@ -41,13 +42,13 @@ export default class extends AbstractView {
                     See More
                     <i class="uil uil-github button-icon"></i>            </a>
                 </div>
-              </div> 
-        
+              </div>
+
         <!-- PORTFOLIO 3 -->
-        
+
               <div class="swiper-slide portfolio-content grid">
                 <img src="assets/imgs/portfolio3.png" alt="" class="portfolio-img">
-        
+
                 <div class="portfolio-data">
                     <h3 class="portfolio-title">Light & Minimal</h3>
                     <p class="portfolio-description">A delicate frontpage for a private mental health service.</p>
@@ -59,31 +60,31 @@ export default class extends AbstractView {
         </div>
         <br>
         <div class="pag swiper-pagination"></div>
-        
+
         </section>
-        
+
         <hr class="hr-pager-2">
-        
+
         <!-- LET ME DESIGN YOUR WEBSITE -->
         <section class="project project-section project-container section">
             <div class="project-bg container grid">
-        
+
                 <div class="project-data">
                     <h2 class="project-title">WHAT I'M CURRENTLY <BR> LOOKING FOR..</h2>
                     <p class="project-description">I am currently looking for a role as a Junior Frontend Developer or Junior Software Engineer within a collaborative, exciting environment. The most important thing for me is having the ability to improve my skills while contributing to a solid development team. <br>
                     I idealise working on a system that I can be passionate about, so I can put my knowledge to good use and see it in action!</p>
                     <a href="#contact" class="button button--flex button--white">
-                        Contact 
+                        Contact
                         <i class="uil uil-message project-icon button-icon"></i>
                     </a>
                 </div>
-        
+
                 <div class="project-data">
                 <img src="static/css/imgs/laptop (1).png" alt="" class="project-img">
             </div>
             </div>
         </section>
-        
+
         <hr class="hr-pager-1">
         `;
     }
