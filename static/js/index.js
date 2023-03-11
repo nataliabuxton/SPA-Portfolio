@@ -2,7 +2,7 @@ import Dashboard from "./views/home.js";
 import Images from "./views/skillsandservices.js";
 import Info from "./views/portfolio.js";
 import Settings from "./views/contact.js";
-import { u } from '../lib.js';
+import { u } from './lib.js';
 
 
 
@@ -25,7 +25,7 @@ const navigateTo = url => {
 const router = async () => {
     const routes = [
         { path: u("/"), view: Dashboard },
-        { path: u("/skills&services"), view: Images },
+        { path: u("/skillsandservices"), view: Images },
         { path: u("/portfolio"), view: Info },
         { path: u("/contact-me"), view: Settings }
 
